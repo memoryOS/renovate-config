@@ -1,12 +1,15 @@
 {
-  "extends": ["github>gemunion/renovate-config"],
+  "extends": [
+    "github>gemunion/renovate-config:rules"
+  ],
   "hostRules": [
     {
       "matchHost": "https://npm.pkg.github.com/",
       "hostType": "npm",
       "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ/+JnBHHapiHFhniyE63n8MGFOSK9kl0mWsCIAbxfeSKmD5PLNtyNuqwqtU8N0SU/TvDWjNG/3xlFDGnHrtd6qfnPHWnKoSTbvIPRdwtCgdlYIq/Z8/WIDrdlAE33g9l1wMD4VmIxdhczF/OJXl3bAf1Et6FXCTN+Nwx6Q49VsEL41leNmHpqwzOw4PT7df59EoP+17najhZjP8rxKUNUcjv7BBAhqKN9W0qWnnXp2D7rwDskSqHT4bYjQQDIHvxmUpPePHJsxIDlf5l7jVU5qrWTmREdBhXE3+pxDLhbJ2QumTYagoE5EM8CY/Vr2jY99XQpTOw4OGlk6ysFFK5creUfDsYQD/kvhOLOXU3Sj/nBCpjQWMId59ufFKH2gymmoTW2qJDL6j9M1fm5aQzweojuc9q3wZuKHtwaPR8opzDCTBPQ2p7ILa/PGPBBMly/Q3bPx3QBooR5srfk4WlFT8ewnZ4fTvmGC8uUtC608INkdk6sjS822NbzO1qCDPKfSfhV5JcBgfgtnRRQxliHmAyZpt1UAHtH4bycpgtzbRLsy6lJeHNGtlDvaXArMUhf4g47hWCbPnlj52Lwe+vvxNXlbSihDBED8r5s7O9oXaeVoUBZcDuVT+8DhE2nO+mv1ie28oRsZguQdrdZm2/ogCrl1yFZuJHBQ+liaOMQ9s1UTSdwFEysWTOerJOg2VCCmRsrWUR0yGLdUGW/ymauYLc4DrfdOZmuiGM6rPOStFjTTDqVGWW+G9APAoQyoeujvKNXiQoxSrYs0sZReUaAsjMjZFgVxPDPz2lTvv3dFJ7VmJZQkGO3aS7x4+esdqKXXQU6hHCBrCjcBX"
+        "token": "wcFMA/xDdHCJBTolAQ/+Pw0KR2E2OQoFUhEb1D/r6c78GDGsaSALQVXdT+hWU5gajYV9feLaD8pKt6ndG3yYiecDF9YKUQoa8BXrPydej/hii++v36Jm7Wazo8Ub7phasj+zDVAEDq/mjkpnTBywYPWlANtCG/arrdl11i1jRcDAgGz8rR5Kw2aY6diEqPigK6uFANs3gaXERIIWlaWV/LfaTE7zh1v6eO3Gp46BhMtZu74F43wYjfnAxyq/JkEXpvL6D6gHbEIc97MlVvUz1O3AKL/sy8KrsWSUNTmb39hyoYVRbSycEQztf/bAaplBl94BwWGockFlKQ0ktMRg2Y3dRxZJZCLfkLUkdXooOdwjIEz0jkSn5CMlaZHDxkHL/cWvRNddivt0STEjs0eox61ZO7uFKnd0JcSBK5rBbYoSfW8DC/cioBa9RNxKGoNGDOX8z/Q9ozJ6vMN81/yu1J4TlxE8xb9YjCgsZhlGXjNSaFJAG/cCyR0wm6sqjkPvmxPlEmAJO71vuEg8QD+TplrL84pD+MQ1DpbBr5ORkjM8jBzZYmZCmBqnqUim6/m/fugM7w1j5tc2GuBqqi4btser9rvpNTisYClqY9BVE4EUCxw7KEvdts4VuiudnRIocIMCf8/F0CuRLVW6zZJGnYEYRcom3LrxOlE8BJdGG5ZpEys16jmuD9oL07+pjGvSdwFZtLPJjoC7m0PTCc0OjemRcy9DEWs0Od/8vYqxO+YkDtMA9iIHQox+XVWSQ+jsICeyQ68xLIyJbp2I6ngDazaBGY12w8hBj/IIdhcTgCheS+VxP6aGbDapNrNdHXseqFXc9dInXE/vHqM8SnpPu6nPZSnkuH+E"
       }
     }
-  ]
+  ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/",
 }
